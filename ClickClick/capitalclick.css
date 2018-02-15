@@ -1,0 +1,84 @@
+html {
+	height: 100%;
+}
+
+.flex {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.poem { 
+	font-size:60px;
+	font-family: Helvetica;
+	text-align: center;
+	position: relative;
+ }
+
+.land {
+	font-size: 48px;
+	font-family: Verdana;
+	font-style: italic;
+	text-align: center;
+    position: fixed;
+    top: 105%;
+    left: 72%;
+}
+
+.promisedland {
+	font-size: 40px;
+	text-align: left;
+	position: relative ;
+    /*position: absolute;
+    top: 120%;
+    left: 70%;*/
+     position: relative;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+}
+
+pre {
+   font-family: "monaco", monospace;
+   font-size: 20px;
+}
+
+
+.capitalistland {
+  font-size: 20px;
+  font-family: Helvetica;
+  position: relative;
+  right: -319px;
+  top: 81px;
+  left: 643px;
+  
+
+	
+ }
+
+.small-font {
+	font-size: 40px;
+}
+
+.large-font {
+	font-size
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.helvetica {
+	font-family: helvetica;
+}
