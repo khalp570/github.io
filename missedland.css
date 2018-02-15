@@ -31,6 +31,7 @@ a {
         position: fixed;
     top: 5%;
     left: 7%;
+    z-index: 100;
 }
 
 .promisedland {

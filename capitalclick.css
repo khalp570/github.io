@@ -52,22 +52,20 @@ pre {
    font-size: 20px;
 }
 
-.capitalistland pre {
-	font-size: 100px;
-}
-
 
 .capitalistland {
   font-size: 20px;
   font-family: Helvetica;
   position: relative;
-  right: -319px;
-  top: 81px;
-  left: 643px;
-  
-
+/*  right: -319px;
+*/  top: 81px;
+  left: 200px;
 	
  }
+
+ .capitalistland pre {
+	font-size: 20px;
+}
 
 .small-font {
 	font-size: 40px;
