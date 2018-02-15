@@ -25,10 +25,11 @@ a {
 	font-family: Verdana;
 	font-style: italic;
 	text-align: center;
-    position: relative;
-    top: 105%;
-    right: -65%;
-    
+  
+    left: 72%;
+        position: fixed;
+    top: 5%;
+    left: 7%;
 }
 
 .promisedland {
@@ -94,25 +95,11 @@ a {
 	display:block;
 }
 
- .anarchistland{
-	font-size: 20px;
-	text-align: left;
-	position: fixed;
-	left:-200px;
-    /*position: absolute;
-    top: 120%;
-    left: 70%;*/
-  ;
-	top: -149px;
-	width: 100%;
-	text-align: center;
-	z-index: 100;
-	display:block;
-}
+
 
 pre {
    font-family: "monaco", monospace;
-   font-size: px;
+   font-size: 27px;
 }
 
 
@@ -125,6 +112,14 @@ pre {
   	
  }
 
+.touristland{
+	font-size: 20px;
+  font-family: Helvetica;
+  position: relative;
+  right: -613px;
+  top:-148px;
+ }
+}
 .small-font {
 	font-size: 40px;
 }

@@ -25,10 +25,13 @@ a {
 	font-family: Verdana;
 	font-style: italic;
 	text-align: center;
-    position: relative;
-    top: 105%;
+  
     left: 72%;
+        position: fixed;
+    top: 5%;
+    left: 7%;
 }
+
 
 .promisedland {
 	font-size: 40px;
@@ -45,6 +48,24 @@ a {
 	display:block;
 }
 
+.persistland{
+	font-size: 10px;
+	text-align: left;
+	position: relative ;
+    /*position: absolute;
+    top: 120%;
+    left: 70%;*/
+     position: relative;
+	top: 10px;
+	left: -255px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+
+
+}
+
 .missedland{
 	font-size: 10px;
 	text-align: left;
@@ -59,12 +80,27 @@ a {
 	z-index: 100;
 	display:block;
 }
+ .prejudicedland{
+	font-size: 20px;
+	text-align: left;
+	position: fixed;
+	left:0%;
+    /*position: absolute;
+    top: 120%;
+    left: 70%;*/
+  ;
+	top: -149px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+}
 
 
 
 pre {
    font-family: "monaco", monospace;
-   font-size: 22px;
+   font-size: 20px;
 }
 
 

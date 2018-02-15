@@ -14,10 +14,11 @@ a {
 }
 
 .poem { 
-	font-size:60px;
-	font-family: Helvetica;
+	font-size:37px;
+	font-family: marion;
 	text-align: center;
 	position: relative;
+	right: -438px;
  }
 
 .land {
@@ -25,9 +26,11 @@ a {
 	font-family: Verdana;
 	font-style: italic;
 	text-align: center;
-    position: fixed;
-    top: 105%;
+  
     left: 72%;
+        position: fixed;
+    top: 5%;
+    left: 7%;
 }
 
 .promisedland {
@@ -47,17 +50,16 @@ a {
 
 pre {
    font-family: "monaco", monospace;
-   font-size: 20px;
+   font-size: 11px;
 }
 
 
 .capitalistland {
-  font-size: 20px;
+  font-size: 50px;
   font-family: Helvetica;
   position: relative;
-  right: -319px;
-  top: 81px;
-  left: 643px;
+  right: -508px;
+  top:81px;
   
 
 	

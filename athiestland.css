@@ -19,16 +19,16 @@ a {
 	text-align: center;
 	position: relative;
  }
-
 .land {
 	font-size: 48px;
 	font-family: Verdana;
 	font-style: italic;
 	text-align: center;
-    position: relative;
-    top: 105%;
-    right: -65%;
-    
+  
+    left: 72%;
+        position: fixed;
+    top: 5%;
+    left: 7%;
 }
 
 .promisedland {

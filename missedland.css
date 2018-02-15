@@ -14,21 +14,23 @@ a {
 }
 
 .poem { 
-	font-size:37px;
-	font-family: marion;
+	font-size:60px;
+	font-family: Helvetica;
 	text-align: center;
 	position: relative;
-	right: -438px;
  }
+
 
 .land {
 	font-size: 48px;
 	font-family: Verdana;
 	font-style: italic;
 	text-align: center;
-    position: relative;
-    top: 105%;
+  
     left: 72%;
+        position: fixed;
+    top: 5%;
+    left: 7%;
 }
 
 .promisedland {
@@ -46,9 +48,26 @@ a {
 	display:block;
 }
 
+.missedland{
+	font-size: 10px;
+	text-align: left;
+	position: relative ;
+    /*position: absolute;
+    top: 120%;
+    left: 70%;*/
+     position: relative;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+}
+
+
+
 pre {
    font-family: "monaco", monospace;
-   font-size: 11px;
+   font-size: 22px;
 }
 
 
@@ -58,9 +77,7 @@ pre {
   position: relative;
   right: -508px;
   top:81px;
-  
-
-	
+  	
  }
 
 .small-font {

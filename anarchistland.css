@@ -25,11 +25,13 @@ a {
 	font-family: Verdana;
 	font-style: italic;
 	text-align: center;
-    position: relative;
-    top: 105%;
-    right: -65%;
-    
+  
+    left: 72%;
+        position: fixed;
+    top: 5%;
+    left: 7%;
 }
+
 
 .promisedland {
 	font-size: 40px;
@@ -123,14 +125,6 @@ pre {
   right: -508px;
   top:81px;
   	
- }
-
- .onmywrist {
- 	font-size: 20px;
-  font-family: Helvetica;
-  position: relative;
-  right: -508px;
-  top:81px;
  }
 
 .small-font {
