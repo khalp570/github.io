@@ -21,16 +21,35 @@ a {
  }
 
 .land {
+	background-color: #4CAF50;
+	color:white;
 	font-size: 48px;
 	font-family: Verdana;
-	font-style: italic;
+	font-style: bold;
 	text-align: center;
   
     left: 72%;
         position: fixed;
     top: 5%;
     left: 7%;
+    border: inset;
+        border: outset;
+        border-spacing: 20px;
+    border-color: #d9d9d9;
+    padding:10px 20px;
+    border-width: 8px;
 }
+  
+.land:hover {
+  background-color: red; /* Green */
+  color: white;
+  border: outset;
+  border-color: grey;
+  padding:10px 20px;
+  border width:12;
+}
+
+
 
 .promisedland {
 	font-size: 40px;
