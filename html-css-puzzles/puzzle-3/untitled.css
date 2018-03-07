@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+
+
+.checkerboardgreenone {
+ position: absolute;
+  width: 33.33%;
+  height: 33.33vh;
+  left: 0;
+  top: 0;
+  background-color: #cbdf1e;
+
+}
+
+.checkerboardgreentwo{
+	right: 0;
+  top: 0;
+   position: absolute;
+  width: 33.33%;
+  height: 33.33vh;
+  background-color: #cbdf1e;
+
+}
+
+.checkerboardgreythree{
+	 position: absolute;
+  width: 33.33%;
+  height: 33.33vh;
+    background-color: #607d8d;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.checkerboardgreenfour{
+	 position: absolute;
+  width: 33.33%;
+  height: 33.33vh;
+   background-color: #cbdf1e;
+   left: 0;
+  bottom: 0;
+}
+
+.checkerboardgreenfive{
+	right: 0;
+  bottom: 0;
+ position: absolute;
+  width: 33.33%;
+  height: 33.33vh;
+    background-color: #cbdf1e;
+}

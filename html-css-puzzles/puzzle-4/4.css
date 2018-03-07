@@ -1,0 +1,42 @@
+html,body { width: 100%; height: 100%; 
+}
+
+.rectangle {
+	width:30%;
+	height:30%;
+	background-color: rgb(82,186,212);
+	position:fixed;
+	left:32.25%;
+	top:37.5%;
+
+}
+.one {
+	width:12%;
+	height:33.33%;
+	background-color: rgb(64,78,175	);
+	left:0%;
+	position:absolute;
+}
+.two {
+	width:15%;
+	height:33.33%;
+	background-color: rgb(64,78,175	);
+	right:0%;
+	position:absolute;
+}
+.three {
+	width:15%;
+	height:33.33%;
+	background-color: rgb(64,78,175	);
+	right:0%;
+	bottom:0%;
+	position:absolute;
+}
+.four {
+	width:15%;
+	height:33.33%;
+	background-color: rgb(64,78,175	);
+	left:0%;
+	bottom:0%;
+	position:absolute;
+}

@@ -1,0 +1,11 @@
+.border {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 19px;
+  background-color: #CFD8DB;
+  text-align: center;
+  width: relative;
+  height: relative;
+  padding: 30px;
+  margin: 5px;
+}/* Your styles go here */

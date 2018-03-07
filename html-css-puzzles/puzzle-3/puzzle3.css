@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+}
+.green {
+  background-color: #cbdf1e;
+}
+
+.checkerboard {
+  position: absolute;
+  width: 33.33%;
+  height: 33.33vh;
+}
+
+.grey {
+  background-color: #607d8d;
+}
+
+.one {
+  left: 0;
+  top: 0;
+}
+
+.two {
+  right: 0;
+  top: 0;
+}
+
+.three {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.four {
+  left: 0;
+  bottom: 0;
+}
+
+.five {
+  right: 0;
+  bottom: 0;
+}

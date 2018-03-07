@@ -1,0 +1,34 @@
+/* Your styles go here */
+body {
+	background: #C8492C;/* Your styles go here */
+}
+
+
+.yellow {
+    position: absolute;
+    background-color: #FABB36;
+    width: 128%;
+    left: 3%;
+    right: 3%;
+    top: 6%;
+}
+
+.grey { 
+	position: absolute;
+	background-color:#DDCBC7;
+	width: 94%;
+	height: 15%;
+	left: 3%;
+	right: 3%;
+	top: 41%;
+}
+
+ .black {
+ 	position: absolute;
+ 	background-color: black;
+ 	width: 94%;
+ 	height: 35%;
+ 	left: 3%;
+ 	right: 3%;
+ 	top: 56%;
+ }
