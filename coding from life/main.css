@@ -1,0 +1,345 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+.book-bottom {
+  height: 17px;
+  width: 371px;
+  position: absolute;
+  background-color: #a80000;
+  left: 17%;
+  bottom: 21%;
+  z-index: 100;
+
+}
+
+.book-top {
+      width: 375px;
+    height: 123px;
+    transform: rotate(180deg);
+    -webkit-transform: skew(-44deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: #f8d364;
+    position: absolute;
+    top: 49%;
+    left: 21%;
+}
+
+.book-middle {
+  height: 119px;
+  width: 370px;
+  position: absolute;
+  background-color: #b0b0b0;
+  left: 17%;
+  top: 64%;
+  bottom: 36%;
+  z-index: 100;
+}
+
+.firstbook {
+     width: 314px;
+    height: 51px;
+    background: red;
+    position: absolute;
+    left: 30%;
+    top: 43%;
+}
+
+
+.vase {
+
+     border-bottom: 213px solid #989898;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: -6px;
+    width: 167px;
+    height: 4px;
+    position: absolute;
+    top: 55%;
+    transform: 23px;
+    left: 49%;
+    rotate: 40%;
+    transform: rotate(180deg);
+    z-index: 100;
+}
+
+.pencilbox {
+    width: 268px;
+    height: 157px;
+    background: #FFEB3B;
+    position: absolute;
+    left: 48%;
+    top: 38%;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    transform: rotate(90deg);
+    z-index: 10;
+}
+
+.bluebook {
+    width: 418px;
+    height: 350px;
+    background: #2d36c5;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 50%;
+    top: 31%;
+}
+
+
+.book-side {
+         width: 151px;
+    height: 244px;
+    transform: rotate(180deg);
+    -webkit-transform: skew(53deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: #646464;
+    position: absolute;
+    top: 49%;
+    left: 43%;
+    transform: rotate(42deg);
+    -webkit-transform: skew(313deg);
+}
+
+.smallbook-top {
+    width: 375px;
+    height: 123px;
+    transform: rotate(180deg);
+    -webkit-transform: skew(-44deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: #ffb3b3;
+    position: absolute;
+    top: 28%;
+    left: 34%;
+
+}
+
+.flowerpot {
+      width: 177px;
+    height: 148px;
+    background: #8fbac5;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    transform: rotate(88deg);
+    top: 20%;
+    left: 36%;
+    position: absolute;
+    z-index: 100;
+}
+
+.flower1
+       
+       { 
+   width: 92px;
+    height: 88px;
+    background-color: #ab319b;
+    -moz-border-radius: 100px 0px;
+    -webkit-border-radius: 100px 0px;
+    border-radius: 100px 0px;
+    position: absolute;
+    top: -1%;
+    left: 34%;
+    transform: rotate(75deg);
+}
+
+.flower2
+
+ { 
+  width: 54px;
+    height: 100px;
+    background-color: #bf58b2;
+    -moz-border-radius: 100px 0px;
+    -webkit-border-radius: 100px 0px;
+    border-radius: 100px 0px;
+    position: absolute;
+    top: 1%;
+    left: 34%;
+    transform: rotate(100deg);
+}
+
+.flower3
+
+ { 
+    width: 54px;
+    height: 100px;
+    background-color: #bf58b2;
+    -moz-border-radius: 100px 0px;
+    -webkit-border-radius: 100px 0px;
+    border-radius: 100px 0px;
+    position: absolute;
+    top: 1%;
+    left: 34%;
+    transform: rotate(80deg);
+}
+
+.flower4
+
+ { 
+    width: 103px;
+    height: 114px;
+    background-color: #ab319b;
+    -moz-border-radius: 100px 0px;
+    -webkit-border-radius: 100px 0px;
+    border-radius: 100px 0px;
+    position: absolute;
+    top: 4%;
+    left: 31%;
+    transform: rotate(37deg);
+}
+
+.flower5
+
+ { 
+     width: 92px;
+    height: 70px;
+    background-color: #dc81d0;
+    -moz-border-radius: 100px 0px;
+    -webkit-border-radius: 100px 0px;
+    border-radius: 100px 0px;
+    position: absolute;
+    top: -2%;
+    left: 37%;
+    transform: rotate(106deg);
+  }
+
+
+.stem {
+     float: left;
+    width: 12px;
+    height: 200px;
+    margin: 0 1px;
+    background-color: #093;
+    position: absolute;
+    left: 40%;
+    top: 8%;
+}
+
+.cathead{
+  width: 122px;
+    height: 125px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 48px;
+    position: absolute;
+    left: 44%;
+    top: 44%;
+    z-index: 100;
+}
+
+.body {
+       position: absolute;
+    background: #FFFAF4;
+    width: 166px;
+    height: 193px;
+    margin: auto;
+    border-radius: 150px 150px 50% 50%;
+    left: 48%;
+    top: 64%;
+    z-index: 100;
+    margin: -60px 0 0 -75px;
+}
+
+.catear1
+{
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid white;
+    position: absolute;
+    top: 38%;
+    left: 44%;
+
+}
+
+.catear2
+{
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid white;
+    position: absolute;
+    top: 38%;
+    left: 46%;
+}
+
+.eyes
+{
+   width: 20px;
+    height: 20px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 48px;
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    z-index: 100;
+
+}
+
+.eyes1
+{
+   width: 20px;
+    height: 20px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 48px;
+    position: absolute;
+    left: 46%;
+    top: 47%;
+    z-index: 100;
+}
+
+.nose 
+{
+    width: -29px;
+    height: -8px;
+    border-left: 24px solid transparent;
+    border-right: 21px solid transparent;
+    border-top: 25px solid #000;
+    position: absolute;
+    top: 52%;
+    left: 47%;
+    z-index: 100;
+
+
+}
+
+.whiskers
+{
+     float: left;
+    width: 12px;
+    height: 200px;
+    margin: 0 1px;
+    background-color: #093;
+    position: absolute;
+    left: 40%;
+    top: 8%;
+}
+
+
+/* Your CSS goes here */
