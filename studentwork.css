@@ -1,0 +1,212 @@
+ 
+#h1 {
+      background-color: #FFFF8E;
+    color: #EB0973;
+    padding: 270px;
+    font-variant: small-caps;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: .15em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 30px;
+}
+
+
+#title {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 1200px;
+    height: 400px;
+    background-color: black;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-family:'Montserrat',sans-serif;
+    padding: 168px;
+}
+
+
+.Paragraph1 {
+	color: red;
+    margin-left: -86px;
+    margin-top: -167px;
+    height: 400px;
+    font-size: 48px;
+    color: white;
+    font-family: futura;
+    padding: 168px;
+    width: 1200px;
+    height: 411px;
+  
+
+.Paragraph2 {
+    margin-left: -126px;
+    margin-top: -150px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+}
+
+
+.Paragraph3 {
+     margin-left: -126px;
+    margin-top: -344px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+}
+
+
+.Paragraph4 {
+    margin-left: -126px;
+    margin-top: -335px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+}
+
+
+.Paragraph5{
+    margin-left: -129px;
+    margin-top: -348px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+}
+
+.Paragraph6 { 
+     margin-left: -125px;
+    margin-top: -348px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+ }
+
+.Paragraph7 { 
+     margin-left: -125px;
+    margin-top: -348px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+ }
+
+.Paragraph8 { 
+     margin-left: -125px;
+    margin-top: -348px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+ }
+
+.Paragraph9 { 
+     margin-left: -125px;
+    margin-top: -348px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+ }
+
+.Paragraph10{ 
+     margin-left: -125px;
+    margin-top: -348px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+ }
+
+.Paragraph11 { 
+     margin-left: -125px;
+    margin-top: -348px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+ }
+
+ .Paragraph12 { 
+     margin-left: -125px;
+    margin-top: -348px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+ }
+
+ .Paragraph13 { 
+     margin-left: -125px;
+    margin-top: -348px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+ }
+
+ .Paragraph14 { 
+     margin-left: -125px;
+    margin-top: -348px;
+    height: 400px;
+    font-size: 37px;
+    color: white;
+    font-family: futura;
+    padding: 170px;
+    width: 1200px;
+    height: 411px;
+ }
