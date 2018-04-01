@@ -1,0 +1,75 @@
+/*.list{
+      font-size: 21px;
+    float: left;
+    text-align: left;
+    padding: 35px 0;
+    display: block;
+    float: right;
+    padding: -22px 0;
+    max-width: 90%;
+    margin: 7px 35px;
+    position: relative;
+    top: -6325px;
+    z-index: 7999;
+    display: fixed;
+    left: -556px;
+}*/
+.title {
+    font-family: 'Cabin', sans-serif;
+    font-size: 80px;
+    top: 129px;
+    float: left;
+    display: block;
+    left: 28px;
+    position: absolute;
+    left: 516px;
+}
+.list,
+.content {
+    width: 60%; */
+    float: left;
+    font-family: 'Montserrat', monospace;
+    font-size: 21px;
+    top: 41px;
+    padding: 20px;
+    padding: 243px 45px;
+    margin: 8px 0;
+    position: absolute;
+    left: 88px;
+}
+
+
+.content {
+    width: 179%;
+    float: left;
+    font-family: 'Montserrat', monospace;
+    font-size: 21px;
+    top: -14px;
+    padding: 20px;
+    padding: 243px 45px;
+    margin: 8px 0;
+    left: 380px;
+}
+
+.list
+
+{
+    
+width: 23%;
+    font-family: 'Montserrat', monospace;
+    font-size: 21px;
+    top: 41px;
+    padding: 20px;
+    padding: 243px 45px;
+    margin: 8px 0;
+    position: absolute;
+    left: 88px;
+}
+
+.body{
+    font-family: 'Montserrat', monospace;
+    font-size: 21px;
+    display: block;
+    padding: 49px 0;
+    text-align: left;
+}
