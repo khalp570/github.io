@@ -14,6 +14,39 @@
     display: fixed;
     left: -556px;
 }*/
+/*.list{
+      font-size: 21px;
+    float: left;
+    text-align: left;
+    padding: 35px 0;
+    display: block;
+    float: right;
+    padding: -22px 0;
+    max-width: 90%;
+    margin: 7px 35px;
+    position: relative;
+    top: -6325px;
+    z-index: 7999;
+    display: fixed;
+    left: -556px;
+}*/
+
+
+
+
+.middleheading {
+ font-family:'Pacifico', cursive;
+    font-size: 46px;
+    top: 217px;
+    float: left;
+    display: block;
+    left: 60px;
+    position: absolute;
+    left: 126px;
+    color:  #de0750; 
+
+}
+
 .title {
     font-family: 'Cabin', sans-serif;
     font-size: 80px;
@@ -24,6 +57,20 @@
     position: absolute;
     left: 516px;
 }
+
+.subheading {
+ font-family: 'Cabin', sans-serif;
+    font-size: 46px;
+    top: 217px;
+    float: left;
+    display: block;
+    left: 60px;
+    position: absolute;
+    left: 126px;
+    color:black; 
+
+}
+
 .list,
 .content {
     width: 60%; */
@@ -40,7 +87,7 @@
 
 
 .content {
-    width: 179%;
+       width: calc(80% - 468px);
     float: left;
     font-family: 'Montserrat', monospace;
     font-size: 21px;
@@ -48,15 +95,16 @@
     padding: 20px;
     padding: 243px 45px;
     margin: 8px 0;
-    left: 380px;
+    left: 468px;
+    position: fixed;
 }
 
 .list
 
 {
-    
+
 width: 23%;
-    font-family: 'Montserrat', monospace;
+    font-family:'Montserrat', monospace;
     font-size: 21px;
     top: 41px;
     padding: 20px;
@@ -73,3 +121,111 @@ width: 23%;
     padding: 49px 0;
     text-align: left;
 }
+
+[data-text-destination] {
+    display: none;
+}
+
+[data-text-destination].active {
+    display: inline;
+}
+
+/* CSS tooltips from https://www.w3schools.com/css/css_tooltip.asp */
+
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+ 
+ .tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 140px;
+    background-color: #de0750;
+    color:#fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+
+.tooltip1 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 140px;
+    background-color:#00b662;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+
+.tooltip3 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip3 .tooltiptext3 {
+    visibility: hidden;
+    width: 140px;
+    background-color:#efb300;;
+    color:white ;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.sidebar a {
+   /* visibility: hidden;*/
+   display:none;
+   text-align: right;
+   border:;
+
+}
+
+.sidebar {
+   /* visibility: hidden;*/
+   display:block;
+   position: fixed;
+   right:0px;
+   width:20%;
+   top:5px;
+   text-align:right ;
+
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+}
+
+.tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+}
+
+.tooltip3:hover .tooltiptext3 {
+    visibility: visible;
+}
+
+
+
