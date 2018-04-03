@@ -55,7 +55,7 @@
     display: block;
     left: 28px;
     position: absolute;
-    left: 516px;
+    left: 417px;
 }
 
 .subheading {
@@ -66,7 +66,7 @@
     display: block;
     left: 60px;
     position: absolute;
-    left: 126px;
+    left: 59px;
     color:black; 
 
 }
@@ -82,7 +82,7 @@
     padding: 243px 45px;
     margin: 8px 0;
     position: absolute;
-    left: 88px;
+   left: 343px;
 }
 
 
@@ -97,6 +97,9 @@
     margin: 8px 0;
     left: 468px;
     position: fixed;
+      height: calc(100% - 243px);
+      overflow: auto;
+     left: 377px;
 }
 
 .list
@@ -105,13 +108,13 @@
 
 width: 23%;
     font-family:'Montserrat', monospace;
-    font-size: 21px;
+    font-size: 18px;
     top: 41px;
     padding: 20px;
     padding: 243px 45px;
     margin: 8px 0;
     position: absolute;
-    left: 88px;
+    left: 17px;
 }
 
 .body{
@@ -198,20 +201,30 @@ width: 23%;
    /* visibility: hidden;*/
    display:none;
    text-align: right;
-   border:;
+   text-decoration:none;
+     border-style: none;
+  border-color: black;
+  background-color: #4044ff;
+  font-family:'Montserrat', monospace;
+  color:white;
+  border-radius: 5px;
+    padding: 5;
+font-
 
 }
 
 .sidebar {
    /* visibility: hidden;*/
-   display:block;
-   position: fixed;
-   right:0px;
-   width:20%;
-   top:5px;
-   text-align:right ;
-
-}
+   display: block;
+    position: fixed;
+    right: 0px;
+    width: 33%;
+    top: 5px;
+    text-align: right;
+    text-decoration: none;
+    height: calc(100% - 40px);
+    overflow: auto;
+    }
 
 
 /* Show the tooltip text when you mouse over the tooltip container */
