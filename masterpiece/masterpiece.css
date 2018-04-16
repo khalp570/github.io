@@ -1,0 +1,374 @@
+
+ .card {
+        height: 200px;
+    width: 50%;
+        position: relative;
+        display: inline-block;
+        margin: 80px;
+        top: 5%;
+    left: 4%;
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+    }
+
+
+ .greencard {
+        height: 200px;
+    width: 50%;
+        position: relative;
+        display: inline-block;
+        margin: 80px;
+              top: 4%;
+    left: 4%;
+    }
+    .greencard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .greencard:hover .img-top {
+        display: inline;
+    }
+
+
+
+ .orangecard {
+            height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+   top: -90%;
+    left: 46%;
+    }
+    .orangecard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .orangecard:hover .img-top {
+        display: inline;
+    }
+
+
+ .yellowcard {
+            height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+       top: -90%;
+    left: 46%;
+    }
+    .yellowcard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .yellowcard:hover .img-top {
+        display: inline;
+    }
+
+.bluecard {
+            height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+   top: -90%;
+    left: 46%;
+    }
+    .bluecard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .bluecard:hover .img-top {
+        display: inline;
+    }
+
+
+    .purplecard {
+            height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+       top: -136%;
+    left: 4%
+    }
+    .purplecard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .purplecard:hover .img-top {
+        display: inline;
+    }
+
+
+
+
+    .violetcard {
+            height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+       top: -136%;
+    left: 4%
+    }
+    .violetcard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .violetcard:hover .img-top {
+        display: inline;
+    }
+
+    .pinkcard {
+            height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+       top: -182%;
+    left: 46%;
+    }
+    .pinkcard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .pinkcard:hover .img-top {
+        display: inline;
+    }
+
+ .lalcard {
+            height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+       top: -182%;
+    left: 46%;
+    }
+    .lalcard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .lalcard:hover .img-top {
+        display: inline;
+    }
+
+
+ .komolacard {
+              height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+    top: -228%;
+    left: 4%
+    }
+
+    .komolacard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .komolacard:hover .img-top {
+        display: inline;
+    }
+
+
+
+
+ .holudcard {
+              height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+    top: -228%;
+    left: 4%
+    }
+
+    .holudcard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .holudcard:hover .img-top {
+        display: inline;
+    }
+
+ 
+
+ .shobujcard {
+              height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+    top: -274%;
+    left: 46%;
+    }
+
+    .shobujcard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .shobujcard:hover .img-top {
+        display: inline;
+    }
+
+ .neelcard {
+              height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+    top: -274%;
+    left: 46%;
+    }
+
+    .neelcard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .neelcard:hover .img-top {
+        display: inline;
+    }
+
+
+
+ .begunicard {
+              height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+    top: -320%;
+    left: 4%;
+
+    }
+
+    .begunicard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .begunicard:hover .img-top {
+        display: inline;
+    }
+
+
+ .golapicard {
+              height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+    top: -320%;
+    left: 4%;
+
+    }
+
+    .golapicard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .golapicard:hover .img-top {
+        display: inline;
+    }
+
+
+
+ .sheshcard {
+              height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+        top: -366%;
+    left: 46%;
+
+    }
+
+    .sheshcard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .sheshcard:hover .img-top {
+        display: inline;
+    }
+
+
+    
+ .titlecard {
+              height: 188px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 80px;
+     top: -749%;
+    left: -3%;
+
+    }
+
+    .titlecard .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .titlecard:hover .img-top {
+        display: inline;
+    }
+
