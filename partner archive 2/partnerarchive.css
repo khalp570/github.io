@@ -1,0 +1,37 @@
+
+.text1 {
+  font-family: 'Cabin', sans-serif;
+    font-size: 40px;
+    text-align:-webkit-center;
+
+}
+.text2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+ }
+
+ .text3 {
+        font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 888px;
+    width: 300;
+ }
+
+.picture1 {
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    left: 28%;
+    position: absolute;
+}
+
+.picture2 {
+	   border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    left: 84%;
+    position: relative;
+}
