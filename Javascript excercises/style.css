@@ -1,0 +1,17 @@
+/* Your styles go here */
+p {
+   font-size: 38px;
+   font-size: 103px;
+    width: 100pxx;
+    text-align: -webkit-center;
+}
+
+button {
+  font-family: Arial, sans-serif;
+    font-size: 31px;
+    border-color: black;
+    background-color: white;
+    left: 578px;
+    position: relative;
+    top: 25px;
+}
