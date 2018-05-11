@@ -1,19 +1,35 @@
 #set-height {
   display: block;
-  height: 13500px;
 }
+
 #v0 {
-  position: fixed; 
-  top: 0;
-  left: 0;
-  height: 100%;
-}
-p font-family helvetica {
+ position: fixed;
+    position: fixed;
+    top: 10;
+    left: 540px;
+    height: 100%;
+    z-index: 100;
+
+ }
+
+p {
+  font-family: helvetica; 
   font-size: 24px;
+} 
+
+#image {
+    background-color:  rgba(248, 247, 216, 0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:0;
+    position:absolute;
 }
+ s
 #time {
   position: fixed;
-  display: block;
+ display: block;
   top: 10px;
   right: 10px;
   z-index: 2;
@@ -23,7 +39,7 @@ p font-family helvetica {
   background-color: rgba(0,0,255,0.5);
 }
 #scroll {
-  position: fixed;
+ position: fixed;
   display: block;
   top: 10px;
   right: 10px;
@@ -33,3 +49,115 @@ p font-family helvetica {
   border-radius: 20px;
   background-color: rgba(255,0,0,0.5);
 }
+
+#frame {
+   position: fixed;
+   font-size: 60px;
+
+}
+
+ #card {
+        height: 200px;
+    width: 50%;
+        position: relative;
+        display: inline-block;
+        margin: 80px;
+        top: 5%;
+    left: 4%;
+    }
+
+    #head {
+     font-size: 50px;
+    left: 1365px;
+    position: relative;
+    }
+
+     #head2{
+     font-size: 50px;
+    left: 1365px;
+    position: relative;
+    top:900px;
+    }
+
+      #head3{
+     font-size: 50px;
+      left: 1471px;
+    position: relative;
+    top: 2000px;
+    width: 200;
+    }
+
+
+       #head4{
+     font-size: 50px;
+      left: 1471px;
+    position: relative;
+    top: 4000px;
+    width: 200;
+    }
+
+
+          #head5{
+     font-size: 50px;
+      left: 1471px;
+    position: relative;
+    top: 5000px;
+    width: 200;
+    }
+
+
+          #head6{
+     font-size: 50px;
+      left: 1471px;
+    position: relative;
+    top: 7000px;
+    width: 200;
+
+
+}
+
+
+    #head7{
+     font-size: 50px;
+      left: 1471px;
+    position: relative;
+    top: 8000px;
+    width: 200;
+  }
+
+
+  #head8{
+     font-size: 50px;
+      left: 1471px;
+    position: relative;
+    top: 9000px;
+    width: 200;
+  }
+
+
+    #head9{
+     font-size: 50px;
+      left: 1471px;
+    position: relative;
+    top: 10000px;
+    width: 200;
+  }
+
+
+  #head10{
+     font-size: 50px;
+      left: 1471px;
+    position: relative;
+    top: 11000px;
+    width: 200;
+  }
+
+
+  #head11{
+     font-size: 50px;
+      left: 1471px;
+    position: relative;
+    top: 11500px;
+    width: 200;
+  }
+
